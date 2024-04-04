@@ -20,7 +20,8 @@ export const Navigation = (props) => {
   }, []);
 
   const logo =
-    "https://ats.sgp1.cdn.digitaloceanspaces.com/ats-landingpage/ats-landing-logo.png";
+    "https://ats.sgp1.cdn.digitaloceanspaces.com/ats-landingpage/ats-blue-logo.png";
+  // "https://ats.sgp1.cdn.digitaloceanspaces.com/ats-landingpage/ats-landing-logo.png";
   return (
     <nav
       id="menu"
