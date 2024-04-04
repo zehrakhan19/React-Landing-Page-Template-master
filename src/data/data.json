@@ -1,0 +1,189 @@
+{
+  "Header": {
+    "title": "Your Vision, Our Expertise",
+    "paragraph": "Lets Build Tomorrow."
+  },
+  "About": {
+    "paragraph": "At Amoghnya TechSolutions, we're driven by a passion for innovation and a commitment to excellence. As a dynamic IT startup, we specialize in delivering cutting-edge solutions tailored to the unique needs of our clients. With expertise in custom software development, web and mobile app development, cloud solutions, cybersecurity, data analytics, AI, and IT consulting, we empower businesses to thrive in the digital age. Our dedicated team of professionals combines technical prowess with creative vision to craft solutions that drive tangible results. We believe in fostering strong partnerships with our clients, working collaboratively to turn ideas into reality. At Amoghnya TechSolutions, we're not just building technology – we're building futures.",
+    "Why": ["Expertise", "Innovation", "Quality Assurance", "Scalability"],
+    "Why2": [
+      "Customized Solutions",
+      "Client-Centric Approach",
+      "Timely Delivery",
+      "Continuous Support"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "img": "https://ats.sgp1.cdn.digitaloceanspaces.com/ats-landingpage/coding.png",
+      "icon": "fa fa-wordpress",
+      "name": "Software Development",
+      "text": "We specialize in developing custom software solutions tailored to your specific business needs, ensuring seamless integration and optimal performance."
+    },
+    {
+      "img": "https://ats.sgp1.cdn.digitaloceanspaces.com/ats-landingpage/WebDevelopment.png",
+      "icon": "fa fa-cart-arrow-down",
+      "name": "Web Application Development",
+      "text": "Our team builds responsive and user-friendly web applications that engage users and deliver exceptional user experiences across devices."
+    },
+    {
+      "img": "https://ats.sgp1.cdn.digitaloceanspaces.com/ats-landingpage/MobileAppDevelopment.png",
+      "icon": "fa fa-cloud-download",
+      "name": "Hybrid Mobile Application Development",
+      "text": "Harness the power of hybrid technology to create mobile apps that combine the best of both native and web applications, delivering high performance and cross-platform compatibility."
+    },
+    {
+      "img": "https://ats.sgp1.cdn.digitaloceanspaces.com/ats-landingpage/erp.png",
+      "icon": "fa fa-language",
+      "name": "ERP Application Development",
+      "text": "Streamline your business operations with our comprehensive ERP solutions, designed to enhance efficiency, productivity, and decision-making across your organization."
+    },
+    {
+      "img": "https://ats.sgp1.cdn.digitaloceanspaces.com/ats-landingpage/newspaper.png",
+      "icon": "fa fa-plane",
+      "name": "Short News Application",
+      "text": "Stay informed and connected with our short news application, delivering curated news updates and relevant content to keep you up to date with the latest developments."
+    },
+    {
+      "img": "https://ats.sgp1.cdn.digitaloceanspaces.com/ats-landingpage/speech-bubble.png",
+      "icon": "fa fa-pie-chart",
+      "name": "Bulk SMS and OBD Voice Services",
+      "text": "Reach your target audience effectively with our bulk SMS and OBD (Outbound Dialing) voice services, enabling you to deliver personalized messages and announcements to large groups of recipients seamlessly."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.png",
+      "text": "\"Amoghnya TechSolutions excelled in developing our ERP with e-commerce application. As a client of Vedic Hivery , I must commend their expertise and dedication. Highly recommended for seamless business integration.\"",
+      "name": "Malavya Teja"
+    },
+    {
+      "img": "img/testimonials/03.png",
+      "text": "\"Santhosh Nayak from Bow to Meow here, highly satisfied with Amoghnya  ERP application. Their seamless integration streamlined our operations, enhancing efficiency. Exceptional service, highly recommended!\"",
+      "name": "Santhosh Nayak"
+    },
+    {
+      "img": "img/testimonials/02.png",
+      "text": "\"Br. Shafi from Business Aacharya here, thrilled with Amoghnya development of our online classes web application. Their expertise and commitment ensured a seamless platform for our educational initiatives. Highly recommended for anyone seeking top-notch digital solutions.\"",
+      "name": "Br. Shafi"
+    },
+    {
+      "img": "img/testimonials/04.png",
+      "text": "\"Praveen here, extremely pleased with texteasy bulk SMS service. Seamless user experience, delivering messages effortlessly. Highly recommend for reliable communication solutions.\"",
+      "name": "Praveen Kumar"
+    },
+    {
+      "img": "img/testimonials/05.png",
+      "text": "\"I'm impressed with Amoghnya TechSolutions' ERP application. It streamlines inventory management and enhances efficiency in our operations. Highly recommend for businesses seeking tailored solutions.\"",
+      "name": "Thirumala Seeds & Pesticides "
+    },
+    {
+      "img": "img/testimonials/06.png",
+      "text": "\"Exceptional experience with OBD voice calls service. Seamless communication, delivering personalized messages effectively. Highly recommend for reliable and impactful outreach.\"",
+      "name": "Sruthi L"
+    }
+  ],
+  "Team": [
+    {
+      "img": "https://ats.sgp1.cdn.digitaloceanspaces.com/ats-landingpage/nagendra.png",
+      "name": "Nagendra Reddy",
+      "job": "CEO"
+    },
+    {
+      "img": "https://ats.sgp1.cdn.digitaloceanspaces.com/ats-landingpage/om.png",
+      "name": "Om Prakash Mahato",
+      "job": "CTO"
+    },
+    {
+      "img": "https://ats.sgp1.cdn.digitaloceanspaces.com/ats-landingpage/zehra1.png",
+      "name": "Zehra Khan",
+      "job": "Front-end Developer"
+    },
+    {
+      "img": "https://ats.sgp1.cdn.digitaloceanspaces.com/ats-landingpage/satya.png",
+      "name": "Satyaranjan",
+      "job": "Python Developer"
+    }
+  ],
+  "Contact": {
+    "address": "401, VBR ENCLAVE HMT colony , addagutta society, Street Number 11, Kukatpally, Hyderabad, Telangana 500072",
+    "phone": "+91 40 3553 3892",
+    "email": "info@amoghnya.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "img": "https://ats.sgp1.cdn.digitaloceanspaces.com/ats-landingpage/WebDevelopment.png",
+      "icon": "fa fa-comments-o",
+      "title": "Web Development",
+      "text": "Building responsive, user-friendly websites and web applications."
+    },
+    {
+      "img": "https://ats.sgp1.cdn.digitaloceanspaces.com/ats-landingpage/MobileAppDevelopment.png",
+      "icon": "fa fa-bullhorn",
+      "title": "Mobile App Development",
+      "text": "Creating iOS and Android apps that engage users and drive results."
+    },
+    {
+      "img": "https://ats.sgp1.cdn.digitaloceanspaces.com/ats-landingpage/DataAnalytics.png",
+      "icon": "fa fa-group",
+      "title": "Data Analytics",
+      "text": "Extracting valuable insights from data to inform decision-making and drive business growth."
+    },
+    {
+      "img": "https://ats.sgp1.cdn.digitaloceanspaces.com/ats-landingpage/AIandMachine%20Learning.png",
+      "icon": "fa fa-magic",
+      "title": "AI & Machine Learning",
+      "text": "Harnessing the power of AI and ML to automate processes and enhance productivity."
+    }
+  ]
+}
