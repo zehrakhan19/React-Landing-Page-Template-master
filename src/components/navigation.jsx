@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { isMobile } from "react-device-detect";
 
 export const Navigation = (props) => {
   const [navbarBg, setNavbarBg] = useState("transparent");
@@ -51,7 +52,10 @@ export const Navigation = (props) => {
         </div>
 
         <div
-          className="collapse navbar-collapse"
+          className={`collapse navbar-collapse ${
+            isMobile ? "navbar-collapse-mob" : "navbar-collapse-lap"
+          }`}
+          // className="collapse navbar-collapse"
           id="bs-example-navbar-collapse-1"
         >
           <ul className="nav navbar-nav navbar-right">

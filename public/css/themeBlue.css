@@ -99,7 +99,7 @@ hr {
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  color: #555;
+  color: #fff;
   font-size: 15px;
   font-weight: 400;
   padding: 8px 2px;
@@ -138,16 +138,26 @@ hr {
   content: "" !important;
   transition: width 0.2s !important;
 }
+.navbar-collapse-mob {
+  background-color: #888281 !important;
+}
+.navbar-collapse-lap {
+  background: transparent !important;
+}
 .navbar-toggle {
   border-radius: 0;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #fff;
-  border-color: #6372ff;
+  /* background-color: #fff; */
+  /* border-color: #6372ff; */
+  background-color: #888281;
+
+  border-color: #fff;
 }
 .navbar-default .navbar-toggle:hover > .icon-bar {
-  background-color: #6372ff;
+  /* background-color: #6372ff;   */
+  background-color: #fff;
 }
 .section-title {
   margin-bottom: 70px;
@@ -227,11 +237,11 @@ a:focus,
   -o-background-size: cover;
 }
 .intro .overlay {
-  /* background: rgba(0, 0, 0, 0.2); */
+  background: rgba(0, 0, 0, 0.45);
 }
 .intro h3 {
   font-family: "Raleway", sans-serif;
-  color: #5e5a5a;
+  color: #fff;
   font-size: 30px;
   font-weight: 700;
   /* text-transform: uppercase; */
@@ -243,7 +253,7 @@ a:focus,
   color: #5ca9fb;
 }
 .intro p {
-  color: #5e5a5a;
+  color: #fff;
   font-size: 20px;
   font-weight: 300;
   line-height: 30px;
