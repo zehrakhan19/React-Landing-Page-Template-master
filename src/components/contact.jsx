@@ -1,6 +1,5 @@
-import { useState } from "react";
-import emailjs from "emailjs-com";
-import React from "react";
+import React, { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 
 const initialState = {
   name: "",
@@ -8,6 +7,7 @@ const initialState = {
   message: "",
 };
 export const Contact = (props) => {
+  const form = useRef();
   const [{ name, email, message }, setState] = useState(initialState);
 
   const handleChange = (e) => {
@@ -20,24 +20,19 @@ export const Contact = (props) => {
     e.preventDefault();
     console.log(name, email, message);
 
-    {
-      /* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */
-    }
+    e.preventDefault();
 
     emailjs
-      .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
-        e.target,
-        "YOUR_PUBLIC_KEY"
-      )
+      .sendForm("service_jqmf489", "template_t8amkoj", form.current, {
+        publicKey: "lDbZWOjw8vZPg89eP",
+      })
       .then(
-        (result) => {
-          console.log(result.text);
+        () => {
+          console.log("SUCCESS!");
           clearState();
         },
         (error) => {
-          console.log(error.text);
+          console.log("FAILED...", error.text);
         }
       );
   };
@@ -54,7 +49,12 @@ export const Contact = (props) => {
                   get back to you as soon as possible.
                 </p>
               </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
+              <form
+                name="sentMessage"
+                ref={form}
+                validate
+                onSubmit={handleSubmit}
+              >
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
